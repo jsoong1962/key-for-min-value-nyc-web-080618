@@ -5,7 +5,8 @@ def key_for_min_value(hash)
   hash.each do |key, value|
     if value < min || min == null
     min = value
-    key
+    minKey = key
     end
   end
+  minKey
 end
